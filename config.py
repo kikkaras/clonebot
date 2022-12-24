@@ -24,7 +24,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "AQARqLeO2MscpiEIRoMiIXcZ4LT1yLXeVYNqJP_O5yivvGpyCgqDogYOAnlMEt001ETuCTQ0ZEURHnnxF57TmIfGvrvohd9ODyYU7dyGdjoH40FOC_T8sMS_EL6VaADC3jVfNZ0tNiXURqWWmeRIsEmnDXUxABZ4X53sA51YgXU5RIVqpiUjnndgRFAyyvyvdAa1W5-SGOztd9zJ7pPT3e3idMfmpnbFkcLMkLv3vieGZjPdAAYgbL9pcdBY50A1hiAi8QiFuiPgpXFp53SjEYrKTocMNXEWYWD3qDaJCrc5u4tuB7x_GvcI0CdsYH3kBP_aRVXNjKjjasKxt9V9mVX_AAAAATvpR2AA")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgresql://dipon:amithnajanaja333@localhost:5432/cluster100")
+    DB_URI = os.environ.get("DATABASE_URL", "postgresql://dockdutch:amithnajanaja333@localhost:5432/cluster0")
 
 
 def LOGGER(name: str) -> logging.Logger:
